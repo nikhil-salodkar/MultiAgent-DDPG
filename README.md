@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project we will train two agents each having control of a racket to learn to bounce a ball over a net. The goal of the agents is to keep the ball in play for as long as possible.
+In this project we will train two agents in Unity's Tennis environment, each having control of a racket to learn to bounce a ball over a net. The goal of the agents is to keep the ball in play for as long as possible.
 The environment and a trained agent looks like this:
 
 ![Alt Text](images/tennis.gif)
