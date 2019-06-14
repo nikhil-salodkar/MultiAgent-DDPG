@@ -82,6 +82,12 @@ fluctuations and not able to converge.
 In this project comparatively high of TAU had to be used. The agent was not converging at all when low value such as 1e-3 was used.
 Another important set of parameters which are necessary to be set properly are **parameters pertaining to Noise following Ornstein-Uhlenbeck process**. In this project, theta is set to 0.1.5 and sigma is set to 0.2.
 
+## Results
+
+The agent converges and solves the environment in 476 episodes. The Average Score vs Episodes plot of training is as shown below:
+
+![Alt Text](images/results.PNG) 
+
 ## Ideas for Future
 
 - Use prioritized replay instead of random replay. The convergence is sure to be faster using this technique.
